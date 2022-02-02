@@ -159,7 +159,24 @@ footer{
     margin: 50px auto 0px auto;
 }
 
+/* responsive*/
+@media  only screen and (min-width:200px) and (max-width:991px){
+    .activities {
+      flex-wrap: wrap;
+    }
+    .testimonial-content{
+        flex-wrap: wrap;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .testimonial-content img {
+       margin-bottom: 10px;
+    }
+    .footer-aria .row .column-link{
+        flex-direction: row;
+    }
 
-
-
+}
+/* end */
 
